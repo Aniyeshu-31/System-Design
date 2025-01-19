@@ -1,4 +1,4 @@
-package WithStrategyDrivePattern.Strategy;
+package WithStrategyDrivePattern;
 
 public class OffRoadDrive implements DriveStrategy{
     public void drive() {

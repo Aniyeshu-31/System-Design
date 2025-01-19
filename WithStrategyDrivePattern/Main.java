@@ -1,7 +1,7 @@
 package WithStrategyDrivePattern;
 public class Main {
-    public static void main(String[] args) {
-         Vehicle spv = new SportsVehicle();
-         spv.drive();
-    }
+   public static void main(String[] args) throws Exception {
+         Vehicle v = new PassengerVehicle();
+         v.drive();
+   }
 }

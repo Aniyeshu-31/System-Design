@@ -1,9 +1,7 @@
 package WithStrategyDrivePattern;
-
-import WithStrategyDrivePattern.Strategy.OffRoadDrive;
-
 public class OffRoadVehicle extends Vehicle{
     OffRoadVehicle() {
-        super(new OffRoadDrive());
+//        super(new OffRoadDrive());
+         obj = new OffRoadDrive(); // 2nd Method to do this.
     }
 }
